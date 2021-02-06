@@ -39,8 +39,8 @@ tbd
 
 | Libraryname   | Description   |
 | ------------- |:-------------:|
-| <a name="uAddress">uAddress</a>       | Get an address and show it in a map. |
-| <a name="uBank">uBank</a>             | Bank functions. |
+| [uAddress](#uAddress)       | Get an address and show it in a map. |
+| [uBank](#uBank)             | Bank functions. |
 | <a name="uCollection">uCollection</a> | Collection operation stuff. Such as totals. |
 | <a name="uDate">uDate</a>             | Date, time and calendar stuff. |
 | <a name="uField">uField</a>           | Field specific behavior. |
@@ -59,8 +59,8 @@ tbd
 | <a name="uXls14">uXls14</a>           | Microsoft Excel 14 library. |
 | <a name="uXls15">uXls15</a>           | Microsoft Excel 15 library. |
 
-### [uAddress](#uAddress)
-### [uBank](#uBank)
+### #uAddress
+### uBank
 #### constructIban - Construct the iban number
 #### getCheckDigit - Calculate the check digit
 #### charToValue - Convert an character to an IBAN value 
