@@ -201,7 +201,7 @@ end ; IP_MERGE_LIST
 </DAT>
 </OCC>
 <OCC>
-<DAT name="UTIMESTAMP">2015-09-08T10:12:36.00</DAT>
+<DAT name="UTIMESTAMP">2015-09-08T13:36:25.00</DAT>
 <DAT name="USUB">I</DAT>
 <DAT name="UVAR">ULIST</DAT>
 <DAT name="ULABEL">IP_MIX_MATCH</DAT>
@@ -215,12 +215,19 @@ entry IP_MIX_MATCH
    params 
       string p_list1 : in
       string p_list2 : in
-      string p_single : in
+      boolean p_allowduplicates : in
    endparams
    variables 
       string v_item1, v_item2, v_list, v_row, v_temp
-      numeric v_found
+      numeric v_itemcount
    endvariables 
+
+   if (p_list1 = "")
+      return p_list2
+   endif
+   if (p_allowduplicates = "")
+      p_allowduplicates = 1
+   endif
 
    ; mix and match 
    forlist v_item1 in p_list1
@@ -246,29 +253,27 @@ entry IP_MIX_MATCH
       endfor
    endfor 
 
+   ; if duplicates are allowed we are done. 
+   if (p_allowduplicates)
+      return v_list
+   endif 
+
+   ; if not we need to do something else 
    ; now look for the existence of multiple occurences of single values 
    v_temp = v_list
    v_list = ""
    forlist v_row in v_temp
-      v_found = 0
-      forlist v_item1 in v_row
-         if ($uppercase(v_item1) = $uppercase(p_single))
-            ; found 1
-            v_found += 1 
-            if (v_found &gt; 1) 
-               break
-            endif 
-         endif 
-      endfor 
-      if (v_found &lt; 2)
+      v_itemcount = $itemcount(v_row)
+      sort/list v_row, "A"
+      sort/list v_row, "U"
+
+      if (v_itemcount = $itemcount(v_row))
          putitem v_list, -1, v_row
-      endif 
+      endif
    endfor 
 
    return v_list
-end ; IP_MIX_MATCH
-
-</DAT>
+end ; IP_MIX_MATCH</DAT>
 </OCC>
 <OCC>
 <DAT name="UTIMESTAMP">2015-02-06T15:39:54.00</DAT>
