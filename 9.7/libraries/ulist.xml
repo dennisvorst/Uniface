@@ -1,0 +1,464 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.6" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">ULIST</DAT>
+<DAT name="UDESCR" xml:space='preserve'>List library</DAT>
+<DAT name="UTIMESTAMP">2014-10-19T16:17:23.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-09-08T10:11:36.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">ULIST</DAT>
+<DAT name="ULABEL">IP_ADD_KEYS2LIST</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Add keys to the list</DAT>
+<DAT name="UTEXT" xml:space='preserve'>;- merge a list with keynames so that it results in a set of key-valuepairs. 
+;- example v_list2 = IP_ADD_KEYS2LIST("1&uSEP;2&uSEP;3", "A&uSEP;B&uSEP;C")
+
+entry IP_ADD_KEYS2LIST
+   ; add key values to a list 
+   returns string 
+   params 
+      string p_keys : in
+      string p_list : in 
+   endparams 
+   variables 
+      string v_list, v_key, v_row_in, v_row_out, v_item
+      numeric v_counter
+   endvariables 
+
+   if (p_keys = "" || p_list = "") 
+      return ""
+   endif 
+
+   forlist v_row_in in p_list
+      if ($itemcount(v_row_in) != $itemcount(p_keys)) 
+         message "Not enough keys supplied for the number of elements."
+         return -1
+      endif 
+
+      v_counter = 1
+      forlist v_item in v_row_in
+         
+         getitem v_key, p_keys, v_counter 
+         v_item = $concat(v_key, "=", v_item) 
+         putitem v_row_out, -1, v_item
+
+         v_counter += 1
+      endfor 
+      putitem v_list, -1, v_row_out
+   endfor
+   return v_list
+end ; IP_ADD_KEYS2LIST</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-06T15:39:54.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">ULIST</DAT>
+<DAT name="ULABEL">IP_COUNT_VALUES</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Count the values in a lis</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry IP_COUNT_VALUES
+   ; @name = IP_COUNT_VALUES
+   ; @description = count the number of values in a list 
+   ; @deprecated = use $itemcount instead
+   params 
+      string  p_list  : in
+      numeric p_count : out
+   endparams 
+   variables
+      string v_item
+   endvariables 
+
+   forlist v_item in p_list
+      p_count += 1
+   endfor 
+   return(0)
+end ; IP_COUNT_VALUES</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-09-08T10:11:36.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">ULIST</DAT>
+<DAT name="ULABEL">IP_IS_LIST</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Is it a list?</DAT>
+<DAT name="UTEXT" xml:space='preserve'>;- Check if the provided string contains Gold+; values and it is indeed a list. 
+;- example $1 = IP_IS_LIST("1&uSEP;2") ; results in true
+;- example $1 = IP_IS_LIST("This is not a list") ; results in false
+entry IP_IS_LIST
+   returns boolean 
+   params 
+      string p_list : in
+   endparams
+   if ($scan(p_list, "&uSEP;") &gt; 0) 
+      return 1
+   else 
+      return 0
+   endif 
+   return 0 
+end ; is_list
+
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-09-08T10:11:36.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">ULIST</DAT>
+<DAT name="ULABEL">IP_MERGE_LIST</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Merge lists</DAT>
+<DAT name="UTEXT" xml:space='preserve'>;- combine two string elements into a list. 
+;- in this case it is not required that eiter is part of a list 
+;- example $1 = IP_MERGE_LIST("A", "B") ; results in A&uSEP;B
+;- example $1 = IP_MERGE_LIST("A", "B&uSEP;C") ; results in A&uSEP;B&uSEP;C
+;- example $1 = IP_MERGE_LIST("A&uSEP;B", "C") ; results in A&uSEP;B&uSEP;C
+;- example $1 = IP_MERGE_LIST("A&uSEP;B", "") ; results in A&uSEP;B
+
+entry IP_MERGE_LIST
+   returns string 
+   params 
+      string p_list1 : in
+      string p_list2 : in
+   endparams 
+
+   ; if one of the lists is empty return the other 
+   if (p_list2 = "") 
+      return p_list1
+   elseif (p_list1 = "" &amp;&amp; p_list2 != "")
+      return p_list2
+   endif 
+
+   if (IP_IS_LIST(p_list1) || IP_IS_LIST(p_list2))
+      p_list1 = $concat(p_list1, "&uSEP;", p_list2)
+   else 
+      putitem p_list1, -1, p_list2
+   endif 
+
+   return p_list1
+end ; IP_MERGE_LIST
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-09-08T10:12:36.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">ULIST</DAT>
+<DAT name="ULABEL">IP_MIX_MATCH</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Mix and match lists</DAT>
+<DAT name="UTEXT" xml:space='preserve'>;- mix and match the values from the first list with the values of the second list 
+;- the single parameter indicates the values that may not be in the list more than once. in this case the main udo type
+;- example v_list2 = IP_MIX_MATCH("1&uSEP;2&uSEP;3", "A&uSEP;B&uSEP;C", "A") 
+entry IP_MIX_MATCH
+   returns string 
+   params 
+      string p_list1 : in
+      string p_list2 : in
+      string p_single : in
+   endparams
+   variables 
+      string v_item1, v_item2, v_list, v_row, v_temp
+      numeric v_found
+   endvariables 
+
+   ; mix and match 
+   forlist v_item1 in p_list1
+      forlist v_item2 in p_list2
+         ; but if one of them is already a list 
+         ; for instance when i run these twice and the second time with the 
+         ; result of the first 
+         v_row = IP_MERGE_LIST(v_row, v_item1)
+         v_row = IP_MERGE_LIST(v_row, v_item2)         
+
+         ; sort them alphabetically
+         sort/list v_row, "A"
+
+         ; create a dummy list within a list to enable scanning
+         putitem v_temp, -1, v_row
+         ; but we only add the unique items 
+         if ($scan(v_list, v_temp) = 0)
+            ; add them to the list 
+            putitem v_list, -1, v_row
+         endif 
+         v_row = ""
+         v_temp = ""
+      endfor
+   endfor 
+
+   ; now look for the existence of multiple occurences of single values 
+   v_temp = v_list
+   v_list = ""
+   forlist v_row in v_temp
+      v_found = 0
+      forlist v_item1 in v_row
+         if ($uppercase(v_item1) = $uppercase(p_single))
+            ; found 1
+            v_found += 1 
+            if (v_found &gt; 1) 
+               break
+            endif 
+         endif 
+      endfor 
+      if (v_found &lt; 2)
+         putitem v_list, -1, v_row
+      endif 
+   endfor 
+
+   return v_list
+end ; IP_MIX_MATCH
+
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-06T15:39:54.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">ULIST</DAT>
+<DAT name="ULABEL">IP_REM_BLANKS</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Remove blanks from list</DAT>
+<DAT name="UTEXT" xml:space='preserve'>;entry IP_PURGE_LISTITEMS
+entry IP_REM_BLANKS
+   ; @description = Remove the blank lines from the list 
+   params 
+      string p_list_in  : in
+      string p_list_out : out
+   endparams 
+   variables 
+      string v_item
+   endvariables 
+
+   forlist v_item in p_list_in
+      if (v_item != "")
+         putitem p_list_out, -1, v_item
+      endif 
+   endfor 
+   return(0)
+end ; IP_PURGE_LISTITEMS
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-06T15:43:43.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">ULIST</DAT>
+<DAT name="ULABEL">IP_SPLIT_LIST</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Split valrep of list</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry IP_SPLIT_LIST
+   ; split the list in two parts a value and an id list
+   params
+      string p_list   : in
+      string p_keys   : out
+      string p_values : out
+   endparams
+   variables 
+      string  v_item, v_list, v_values  
+      boolean v_haskey, v_ischecked
+      numeric v_counter 
+   endvariables 
+
+   ; is it a list within a list 
+   scan p_list, "&lt;GLD&gt;!&lt;/GLD&gt;&lt;GLD&gt;smcln&lt;/GLD&gt;"  
+
+   if ($result &gt; 0)
+      ; list within a list 
+      v_counter = 0
+
+      while (p_list != "")
+         v_counter = v_counter + 1 
+
+         ; get the items 
+         getitem v_list, p_list, 1
+         delitem p_list, 1
+
+
+         ; single list 
+         while (v_list != "")
+            getitem v_item, v_list, 1
+            delitem v_list, 1
+
+            ; check for the key into the string
+            if (!v_ischecked) 
+               ; scan the first string for an = sign
+               scan v_item, "="
+               if ($result &gt; 0)
+                  v_haskey = 1
+               else 
+                  v_haskey = 0
+               endif
+               v_ischecked = 1
+            endif
+
+            ; put the item in the list
+            if (v_haskey &amp; v_counter = 1)
+               putitem p_keys, -1, $idpart(v_item)
+               putitem v_values, -1, $valuepart(v_item)
+            else 
+               putitem v_values, -1, v_item
+            endif
+         endwhile
+
+         putitem p_values, -1, v_values
+         v_values = ""
+      endwhile
+
+   else 
+      ; single list 
+      while (p_list != "")
+         getitem v_item, p_list, 1
+         delitem p_list, 1
+
+         ; check for the key into the string
+         if (!v_ischecked) 
+            ; scan the first string for an = sign
+            scan v_item, "="
+            if ($result &gt; 0)
+               v_haskey = 1
+            else 
+               v_haskey = 0
+            endif
+            v_ischecked = 1
+         endif
+
+         ; put the item in the list
+         if (v_haskey)
+            putitem p_keys, -1, $idpart(v_item)
+            putitem p_values, -1, $valuepart(v_item)
+         else 
+            putitem p_values, -1, v_item
+         endif
+      endwhile
+   endif 
+   return(0) 
+end</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-06T15:52:21.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">ULIST</DAT>
+<DAT name="ULABEL">IP_STRING_LIST</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Create list from string</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry IP_STRING_LIST
+   ; @name = IP_STRING_LIST
+   ; @description = Return a list of string values that represent the values given in the corresponding string value.
+   ; @params = p_string can be any string. p_case can be either true (case sensitive) or false (case insensitive). p_list contains the starting locations of the string.
+   ; @version = 0.1
+   ; @date = 2014-01-08
+   ; @author = Dennis E.J. Vorst
+   params 
+      string  p_string : in 
+      string  p_search : in
+      boolean p_case   : in
+      string  p_list   : out
+   endparams 
+   variables 
+      string v_item, v_list
+      numeric v_length, v_pointer
+   endvariables 
+
+   ; init 
+   v_length = $length(p_search)
+
+   ; get a list of starting points in the codestring  
+   call IP_STRING_LOCTNS(p_string, p_search, p_case, 1, v_list)
+   #include UGENERAL:IP_ERR_CALL
+
+   forlist v_pointer in v_list
+      v_item = p_string[v_pointer, v_length + v_pointer - 1]
+      putitem p_list, -1, v_item      
+   endfor
+   return(0)
+end ; IP_STRING_LIST</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-02-06T15:39:54.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">ULIST</DAT>
+<DAT name="ULABEL">IP_TRIM_LIST</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Trim the items in a list</DAT>
+<DAT name="UTEXT" xml:space='preserve'>;entry IP_TRIM_LISTITEMS
+entry IP_TRIM_LIST
+
+   ; @description = remove the trimvalue from the beginning and end of each listitem
+   params 
+      string p_list_in   : in
+      string p_trimvalue : in
+      string p_list_out  : out
+   endparams 
+   variables 
+      string v_item
+   endvariables 
+
+   forlist v_item in p_list_in
+      v_item = $rtrim(v_item, p_trimvalue)
+      v_item = $ltrim(v_item, p_trimvalue)
+
+      putitem p_list_out, -1, v_item
+   endfor
+   return(0)
+end ; IP_TRIM_LISTITEMS</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>
