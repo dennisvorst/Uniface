@@ -44,8 +44,8 @@ tbd
 | <a name="uXls14">uXls14</a>           | Microsoft Excel 14 library. |
 | <a name="uXls15">uXls15</a>           | Microsoft Excel 15 library. |
 
-### [link text](#uAddress)uAddress
-### [link text](#uBank)uBank
+### [uAddress](#uAddress)
+### [uBank](#uBank)
 #### constructIban - Construct the iban number
 #### getCheckDigit - Calculate the check digit
 #### charToValue - Convert an character to an IBAN value 
