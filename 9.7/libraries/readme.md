@@ -54,12 +54,14 @@ tbd
 ### uCollection
 #### Operations 
 | Name   | Description   |
+| ------ |:-------------:|
 | COL_CALC_TOTAL | Calculate the totals of a record using a collection operation in the read trigger. |
 
 ### uDate
 #### Operations 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | getAge | |
 | getWeekday | |
 | IP_MOVE_ELEMENT | |
@@ -69,6 +71,7 @@ tbd
 #### Operations 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | IP_ADD_SLASH | |
 | IP_CRE_FOLDER | |
 | IP_CRE_FOLDERNM | |
@@ -82,6 +85,7 @@ tbd
 #### Operations 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | IP_FILTER_EXT | |
 | IP_GET_FOLDERCONTENT | |
 | IP_LIST_FILES | |
@@ -90,10 +94,12 @@ tbd
 ### uGeneral
 #### Operations 
 | Name   | Description   |
+| ------ |:-------------:|
 | IO_ADD_RECORD | |
 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | ErrorHandling | |
 | IP_CHECK_ALL | |
 | IP_SELECTALL | |
@@ -102,6 +108,7 @@ tbd
 #### Operations 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | createHtml | |
 | createInputField | |
 
@@ -109,6 +116,7 @@ tbd
 #### Operations 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | listToStruct | |
 | IP_ADD_KEYS2LIST | |
 | IP_COUNT_VALUES | |
@@ -131,6 +139,7 @@ tbd
 #### Operations 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | sendMail | |
 | validateMail | |
 | createMessage  | |
@@ -142,6 +151,7 @@ tbd
 #### Operations 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | maximum | Determine the maximum value in a Uniface list |
 | minimum | Determine the minimum value in a Uniface list |
 | alphabet2Number | |
@@ -155,6 +165,7 @@ todo: what is the difference between string2lsit and stringlist
 #### Operations 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | checkCase | |
 | countString | |
 | cutString | |
@@ -172,6 +183,7 @@ todo: copystruct defined twice, find out why
 #### Operations 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | copyStruct | |
 | copyStruct | |
 | getDeepestChild | |
@@ -184,6 +196,7 @@ todo: copystruct defined twice, find out why
 ### uTab
 #### Operations 
 | Name   | Description   |
+| ------ |:-------------:|
 | IO_DO_ACCEPT | |
 | IO_DO_CLEAR | |
 | IO_DO_QUIT | |
@@ -192,6 +205,7 @@ todo: copystruct defined twice, find out why
 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | IP_ACTIVATE_TAB | |
 | IP_DEL_TAB_INST | |
 | IP_GET_PK | |
@@ -204,6 +218,7 @@ Library for Microsoft Excel version 14: https://nl.wikipedia.org/wiki/Microsoft_
 #### Operations 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | checkVersion | |
 | column2Number | |
 | delApplication | |
@@ -238,6 +253,7 @@ todo: why did I not keep the names the same?
 #### Operations 
 #### Entries
 | Name   | Description   |
+| ------ |:-------------:|
 | CHECK_VERSION | |
 | column2Number | |
 | DEL_APPLICATION | |
