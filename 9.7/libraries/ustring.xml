@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8' ?>
 <!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
 <!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
-<UNIFACE release="9.7" xmlengine="2.0">
+<UNIFACE release="9.6" xmlengine="2.0">
 <TABLE>
 <DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
  rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
@@ -826,6 +826,151 @@ end ; cutString
 
    return(0)
 end ; getLocations</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-09-23T12:08:06.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">USTRING</DAT>
+<DAT name="ULABEL">GET_LEVENSHTEIN</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Levenshtein distance</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry get_Levenshtein
+   ; calculate the levenstein distance between two strings 
+   ; https://en.wikipedia.org/wiki/Levenshtein_distance
+   ; http://planetcalc.com/1721/
+   ; basically we are determining in how many steps we could transform string1 into string2
+   ; @requires : USTRING:STRING2LIST
+   ; @version 1.0.0
+   returns numeric 
+   params 
+      string p_source : in
+      string p_target : in
+   endparams 
+   variables 
+      string v_string, v_char, v_source, v_not_found, v_found, v_item
+      string v_curr, v_next, v_prev
+      numeric v_pointer, v_distance, v_lt, v_ls, v_nrnext, v_nrprev
+   endvariables 
+
+   ; init 
+   v_ls = $length(p_source)
+   v_lt = $length(p_target)
+   ; turn both to uppercase 
+   p_source = $uppercase(p_source)
+   p_target = $uppercase(p_target)
+
+   ; determine what we need to add 
+   v_distance =  $abs(v_lt - v_ls)
+   ; if one is empty we are done 
+   if (v_ls = 0 || v_lt = 0) 
+      return v_distance 
+   endif 
+
+   ; try to fit the smallest in the biggest
+   if (v_ls &gt; v_lt)
+      ; switch 
+      v_source = p_source 
+      p_source = p_target 
+      p_target = v_source
+      v_source = ""
+      v_ls = $length(p_source)
+      v_lt = $length(p_target)
+   endif 
+
+   ; try to match as much as possible in a string 
+   ; look for a single character in the string and build from that 
+   ; single characters should be matched at the end.
+
+   ; turn the string into a list 
+   ; use the list function that must exist somewhere
+   v_source = string2List(p_source, "")
+
+   ; make a list of matching elements 
+
+;   v_pointer = 1
+;   while (v_pointer &lt; $itemcount(v_source))
+   while (v_source != "")
+
+;      getitem v_char, v_source, v_pointer
+      getitem v_char, v_source, 1
+      v_string = v_char
+      
+      while ($scan(p_target, v_string) &gt; 0)
+         delitem v_source, 1
+         if (v_source = "") 
+            break
+         else 
+;            getitem v_char, v_source, v_pointer
+            getitem v_char, v_source, 1
+            v_string = $concat(v_string, v_char)
+         endif 
+
+;         ; concat the string in the list 
+;         v_source = $replace(v_source, 1, $concat(v_item, "&uSEP;"), v_item, 1)
+
+      endwhile 
+      ; source is either emtpy or we stumbled across a mismatch 
+      if (v_char != "" &amp;&amp; v_source !="")
+         ; mismatch 
+         ; remove the last character 
+         v_string = v_string[1, $length(v_string) -1]
+      endif 
+      if (v_string != "")
+         ; we found a match 
+         putitem v_found, -1, v_string 
+         v_string = ""
+      else 
+         ; string is empty
+         if (v_char != "") 
+            putitem v_not_found, -1, v_char
+            delitem v_source, 1
+         endif 
+      endif 
+   
+;      v_pointer = 1    
+   endwhile
+
+   ; we have a found and a not found string 
+   ; now see if the things we found are in the same order 
+   ; if not remove them 
+   v_pointer = 1
+   while (v_pointer &lt;= $itemcount(v_found))
+
+      getitem v_curr, v_found, v_pointer
+      if (v_pointer != $itemcount(v_found))
+         getitem v_next, v_found, (v_pointer+1)
+         v_nrnext = $scan(p_target, v_next)
+      else 
+         v_nrnext = $length(p_target)
+      endif 
+      if (v_pointer != 1)
+         getitem v_prev, v_found, (v_pointer-1)
+         v_nrprev = $scan(p_target, v_prev) + $length(v_prev) -1
+      else 
+         v_nrprev = 0
+      endif 
+
+      if ($scan(p_target, v_curr) &gt; v_nrprev  &amp;&amp;  $scan (p_target, v_curr) &lt; v_nrnext)
+         ;  it should be between the previous and the next
+      elseif ($scan(p_target, v_curr) &gt; v_nrprev)
+         ; it must be at least after the next one 
+      else 
+         ; we throw it out 
+         putitem v_not_found, -1, v_curr
+         delitem v_found, v_pointer
+         v_pointer -= 1
+      endif 
+      v_pointer +=1
+   endwhile 
+   
+
+   ; remove the seperators and calculate the number 
+   v_not_found = $replace(v_not_found, 1, "&uSEP;", "", -1)
+   v_distance +=  $length(v_not_found)
+
+   return v_distance
+end ; get_Levenshtein
+</DAT>
 </OCC>
 <OCC>
 <DAT name="UTIMESTAMP">2014-10-19T17:43:48.00</DAT>
