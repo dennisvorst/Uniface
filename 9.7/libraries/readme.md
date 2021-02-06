@@ -200,6 +200,7 @@ todo: copystruct defined twice, find out why
 
 
 ### uXls14
+Library for Microsoft Excel version 14: https://nl.wikipedia.org/wiki/Microsoft_Excel 
 #### Operations 
 #### Entries
 | Name   | Description   |
@@ -231,7 +232,9 @@ todo: copystruct defined twice, find out why
 | setVisible | |
 
 ### uXls15
+Library for Microsoft Excel version 14: https://nl.wikipedia.org/wiki/Microsoft_Excel 
 todo: why did I not keep the names the same?
+
 #### Operations 
 #### Entries
 | Name   | Description   |
