@@ -1,20 +1,5 @@
-## Title
-
-### Place 1
-
-Hello, this is some text to fill in this, [here](#place-2), is a link to the second place.
-
-### Place 2
-
-Place one has the fun times of linking here, but I can also link back [here](#place-1).
-
-### Place's 3: other example
-
-Place one has the fun times of linking here, but I can also link back [here](#places-3-other-example).
-
-
 # Libraries
-This section contains a collection of libraries, that all 
+This section contains a collection of libraries.
 
 ## Installation
 
@@ -41,44 +26,44 @@ tbd
 | ------------- |:-------------:|
 | [uAddress](#uAddress)       | Get an address and show it in a map. |
 | [uBank](#uBank)             | Bank functions. |
-| <a name="uCollection">uCollection</a> | Collection operation stuff. Such as totals. |
-| <a name="uDate">uDate</a>             | Date, time and calendar stuff. |
-| <a name="uField">uField</a>           | Field specific behavior. |
-| <a name="uFile">uFile</a>             | Every possible file function we could think of. |
-| <a name="uFolder">uFolder</a>         | library wih default folder entries |
-| <a name="uGeneral">uGeneral</a>       | The function that contains a lot of general functionality. Such as errorhandling etc. |
-| <a name="uHTML">uHTML</a>             | All the HTML functions we ever created are in here |
-| <a name="uList">uList</a>             | Working with lists, all lists, even structs. |
-| <a name="uMail">uMail</a>             | Sending, receiving, validating email and loads of other stuff. |
-| <a name="uLogin">uLogin</a>           | Login, register, forgot password and so on and so forth. |
-| <a name="uNumeric">uNumeric</a>       | Number functions. |
-| <a name="uSort">uSort</a>             | Sorting code library. |
-| <a name="uString">uString</a>         | String library. |
-| <a name="uStruct">uStruct</a>         | Struct library. |
-| <a name="uTab">uTab</a>               | Tab component specific library. |
-| <a name="uXls14">uXls14</a>           | Microsoft Excel 14 library. |
-| <a name="uXls15">uXls15</a>           | Microsoft Excel 15 library. |
+| [uCollection](#uCollection) | Collection operation stuff. Such as totals. |
+| [uDate](#uDate)             | Date, time and calendar stuff. |
+| [uField](#uField)           | Field specific behavior. |
+| [uFile](#uFile)             | Every possible file function we could think of. |
+| [uFolder](#uFolder)         | library wih default folder entries |
+| [uGeneral](#uGeneral)       | The function that contains a lot of general functionality. Such as errorhandling etc. |
+| [uHTML](#uHTML)             | All the HTML functions we ever created are in here |
+| [uList](#uList)             | Working with lists, all lists, even structs. |
+| [uMail](#uMail)             | Sending, receiving, validating email and loads of other stuff. |
+| [uLogin](#uLogin)           | Login, register, forgot password and so on and so forth. |
+| [uNumeric](#uNumeric)       | Number functions. |
+| [uSort](#uSort)             | Sorting code library. |
+| [uString](#uString)         | String library. |
+| [uStruct](#uStruct)         | Struct library. |
+| [uTab](#uTab)               | Tab component specific library. |
+| [uXls14](#uXls14)           | Microsoft Excel 14 library. |
+| [uXls15](#uXls15)           | Microsoft Excel 15 library. |
 
-### #uAddress
+### uAddress
 ### uBank
 #### constructIban - Construct the iban number
 #### getCheckDigit - Calculate the check digit
 #### charToValue - Convert an character to an IBAN value 
 
 
-### [link text](#uCollection)uCollection
+### uCollection
 #### COL_CALC_TOTAL
 Calculate the totals of a record using a collection operation in the read trigger. 
 
-### [link text](#uDate)uDate
+### uDate
 #### getAge
 #### getWeekday
 
-### [link text](#uFile)uFile
+### uFile
 #### IP_GET_EXTENSION
 Get the name of the file extension. Ie. TXT, XLS etc. 
 
-### [link text](#uGeneral)uGeneral      
+### uGeneral
 
 ; one of the include procs
 #### ErrorHandling
@@ -90,13 +75,13 @@ mention the input parameters, the output parameters and a small text explaining 
 
 
 
-### [link text](#uHTML)uHTML
+### uHTML
 
-### [link text](#uList)uList
+### uList
 #### listToStruct
 
 
-### [link text](#uMail)uMail
+### uMail
 #### sendMail
 #### validateMail
 #### createMessage 
@@ -105,17 +90,23 @@ mention the input parameters, the output parameters and a small text explaining 
 #### sendNewsLetter 		- better in a component
 
 
+### Login
 
-### [link text](#Login)Login
-### [link text](#uNumeric)uNumeric
+### uNumeric
 #### maximum 
 Determine the maximum value in a Uniface list 
 #### minimum 
 Determine the minimum value in a Uniface list 
 
-### [link text](#uSort)uSort
-### [link text](#uString)uString
-### [link text](#uStruct)uStruct
-### [link text](#uTab)uTab
-### [link text](#uXls14)uXls14
-### [link text](#uXls15)uXls15
+### uSort
+
+### uString
+
+### uStruct
+
+### uTab
+
+### uXls14
+
+### uXls15
+
