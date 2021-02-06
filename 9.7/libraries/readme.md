@@ -45,40 +45,66 @@ tbd
 | [uXls15](#uXls15)           | Microsoft Excel 15 library. |
 
 ### uAddress
+
 ### uBank
 #### constructIban - Construct the iban number
 #### getCheckDigit - Calculate the check digit
 #### charToValue - Convert an character to an IBAN value 
 
-
 ### uCollection
-#### COL_CALC_TOTAL
+#### COL_CALC_TOTAL 
 Calculate the totals of a record using a collection operation in the read trigger. 
 
 ### uDate
 #### getAge
 #### getWeekday
+#### IP_MOVE_ELEMENT
+#### IP_SET_SELECTION
 
 ### uFile
+#### IP_ADD_SLASH
+#### IP_CRE_FOLDER
+#### IP_CRE_FOLDERNM
+#### IP_FOLDEREXISTS
 #### IP_GET_EXTENSION
 Get the name of the file extension. Ie. TXT, XLS etc. 
+#### IP_GET_SLASHES
+#### IP_REPLACE_SEPERATOR
+#### IP_REP_SEPERATOR
+
+### uFolder
+#### IP_FILTER_EXT
+#### IP_GET_FOLDERCONTENT
+#### IP_LIST_FILES
+#### IP_LIST_FOLDERS
 
 ### uGeneral
-
-; one of the include procs
 #### ErrorHandling
-
-; one of the include proc entries. 
-##### generalhandler
-The standard clause if $status is negative then return $status. Otherwise continue.
-mention the input parameters, the output parameters and a small text explaining what it does. 
+#### IP_CHECK_ALL
+#### IP_SELECTALL
 
 
 
 ### uHTML
+#### createHtml
+#### createInputField
 
 ### uList
 #### listToStruct
+
+#### IP_ADD_KEYS2LIST
+#### IP_COUNT_VALUES
+#### IP_IS_LIST
+#### IP_MERGE_LIST
+#### IP_MIX_MATCH
+#### IP_PURGE_LISTITEMS
+#### IP_REM_BLANKS
+#### IP_SPLIT_LIST
+#### IP_STRING_LIST
+#### IP_TRIM_LISTITEMS
+#### IP_TRIM_LIST
+
+### Login
 
 
 ### uMail
@@ -89,24 +115,104 @@ mention the input parameters, the output parameters and a small text explaining 
 #### setNoReplyAddress		- works better in a component 
 #### sendNewsLetter 		- better in a component
 
-
-### Login
-
-### uNumeric
+### uNumeric 
 #### maximum 
 Determine the maximum value in a Uniface list 
 #### minimum 
 Determine the minimum value in a Uniface list 
+#### alphabet2Number
+#### ascii2Char
+#### char2Ascii
+
 
 ### uSort
-
+todo: what is the difference between string2lsit and stringlist
 ### uString
+#### checkCase
+#### countString
+#### cutString
+#### getLocations
+#### get_Levenshtein
+#### list2String
+#### number2Alphabet
+#### replaceAll
+#### string2List
+#### stringList
+
 
 ### uStruct
+todo: copystruct defined twice, find out why 
+#### copyStruct
+#### copyStruct
+#### getDeepestChild
+#### getStruct
+#### hasStructCollValues
+#### isStructCollItemValue
+#### structExists
+#### structIsEmpty
 
 ### uTab
+#### IP_ACTIVATE_TAB
+#### IP_DEL_TAB_INST
+#### IP_GET_PK 
+#### IP_INIT_TAB
+#### IP_SET_TAB
+
 
 ### uXls14
+#### checkVersion
+#### column2Number
+#### delApplication
+#### delWorkbooks
+#### getActivecell
+#### getActivesheet
+#### getApplication
+#### getCellValues
+#### getEmptyColumn
+#### getEmptyRow
+#### getFilename
+#### getFileTypes
+#### getTabname
+#### getTabNames
+#### getValue
+#### getWorkbook
+#### getWorkbooks
+#### gotoFirstTab
+#### gotoLastTab
+#### gotoNamedTab
+#### number2Column
+#### openWorkbook
+#### setFormulaR1C1
+#### setTabname
+#### setValue
+#### setVisible
 
 ### uXls15
+todo: why did I not keep the names the same?
+#### CHECK_VERSION
+#### column2Number
+#### DEL_APPLICATION
+#### DEL_WORKBOOKS
+#### getFileTypes
+#### GET_ACTIVECELL
+#### GET_ACTIVESHEET
+#### GET_APPLICATION
+#### GET_CELLVALUES
+#### GET_EMPTYCOLUMN
+#### GET_EMPTYROW
+#### GET_FILENAME
+#### GET_TABNAME
+#### GET_TABNAMES
+#### GET_VALUE
+#### GET_WORKBOOK
+#### GET_WORKBOOKS
+#### GOTO_FIRSTTAB
+#### GOTO_LASTTAB
+#### GOTO_NAMEDTAB
+#### number2Column
+#### OPEN_WORKBOOK
+#### setValue
+#### SET_FORMULAR1C1
+#### SET_TABNAME
+#### SET_VISIBLE
 
