@@ -1,0 +1,348 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.6" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">UTAB</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Tab comp. library</DAT>
+<DAT name="UTIMESTAMP">2014-11-02T08:29:19.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-14T13:59:09.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UTAB</DAT>
+<DAT name="ULABEL">IO_DO_ACCEPT</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Do an ACCEPT</DAT>
+<DAT name="UTEXT" xml:space='preserve'>operation IO_DO_ACCEPT
+   ; Store the changes in the the component and its children and close them 
+   variables 
+      string v_nminstance 
+   endvariables 
+
+   forlist v_nminstance in $instancechildren
+      activate v_nminstance."IO_DO_ACCEPT"()
+   endfor 
+
+   ; if modified store it 
+   if ($instancemod) 
+      macro "^STORE"
+   endif
+
+   ; accept the controller 
+   macro "^ACCEPT"
+   return 0
+end ; IO_DO_ACCEPT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-14T15:03:35.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UTAB</DAT>
+<DAT name="ULABEL">IO_DO_CLEAR</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Do a CLEAR</DAT>
+<DAT name="UTEXT" xml:space='preserve'>operation IO_DO_CLEAR
+   ; Clear the component 
+   variables 
+      string v_nminstance 
+   endvariables 
+
+   ; store the children 
+   forlist v_nminstance in $instancechildren
+      activate v_nminstance."IO_DO_CLEAR"()
+   endfor 
+
+   ; clear this component 
+   clear
+
+   return 0 
+end ; IO_DO_CLEAR</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-14T14:34:54.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UTAB</DAT>
+<DAT name="ULABEL">IO_DO_QUIT</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Do a QUIT</DAT>
+<DAT name="UTEXT" xml:space='preserve'>operation IO_DO_QUIT
+   ; Quit the component and its children 
+   variables 
+      string v_nminstance 
+   endvariables 
+
+   ; store the children 
+   forlist v_nminstance in $instancechildren
+      activate v_nminstance."IO_DO_QUIT"()
+   endfor 
+
+   ; store this component 
+   macro "^QUIT"
+
+   return 0 
+end ; IO_DO_QUIT()</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-14T14:05:12.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UTAB</DAT>
+<DAT name="ULABEL">IO_DO_STORE</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>DO a STORE</DAT>
+<DAT name="UTEXT" xml:space='preserve'>operation IO_DO_STORE
+   ; store the component and its children 
+   variables 
+      string v_nminstance 
+   endvariables 
+
+   ; store the children 
+   forlist v_nminstance in $instancechildren
+      activate v_nminstance."IO_DO_STORE"()
+   endfor 
+
+   ; store this component 
+   macro "^STORE"
+
+   return 0 
+end ; IO_DO_STORE()</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-14T14:34:54.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UTAB</DAT>
+<DAT name="ULABEL">IO_GET_MODSTATE</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get modification state</DAT>
+<DAT name="UTEXT" xml:space='preserve'>operation IO_GET_MODSTATE
+   ; get the modification state of the component. If one is modified we consider the entire set of components to be modified.
+   params 
+      boolean p_modstatus : out
+   endparams 
+   variables 
+      string v_nminstance
+   endvariables 
+
+   p_modstatus = 0
+   forlist v_nminstance in $instancechildren
+      activate v_nminstance."IO_GET_MODSTATE"(p_modstatus)
+      #include UGENERAL:IP_ERR_ACTIVATE
+
+      if (p_modstatus) 
+         return 0
+      endif 
+   endfor 
+   
+   ; check the status of this component 
+   p_modstatus = $formmod 
+   return 0
+end ; IO_GET_STATE</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-03T08:52:12.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UTAB</DAT>
+<DAT name="ULABEL">IP_ACTIVATE_TAB</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Activate Tab</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry IP_ACTIVATE_TAB
+   ; @version = 0.1
+   ; @author  = Dennis E.J. Vorst
+   ; @required = UGENERAL:IP_ERR_ACTIVATE
+   ; @deprecated = use the TAB:IP_SET_TAB instead 
+   params
+      string p_nmcomponent : in
+      string p_ftkeys      : in 
+   endparams
+   variables
+      string  v_data 
+   endvariables
+
+   if (p_nmcomponent = "") 
+      message "IP_ACTIVATE_TAB: No component name provided."
+      return -1
+   endif 
+
+   ; does this component already exist as a child instance?
+   getitem/id v_data, $instancechildren, p_nmcomponent
+   if ($status &lt;= 0)
+      ; activate component with its data
+      activate p_nmcomponent.CO_INIT_TAB(p_ftkeys)
+      #include UGENERAL:IP_ERR_ACTIVATE
+   endif
+
+   setformfocus p_nmcomponent ; yes, switch focus
+   return(0)
+end ; IP_ACTIVATE_TAB</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-14T14:05:57.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UTAB</DAT>
+<DAT name="ULABEL">IP_DEL_TAB_INST</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Delete tab instances</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry IP_DEL_TAB_INST
+   ; remove the instances of a tab 
+   params 
+      boolean p_store : in 
+   endparams 
+   variables 
+      string v_instance
+   endvariables 
+
+   forlist v_instance in $instancechildren 
+      if (p_store) 
+         activate v_instance."CO_DO_STORE"()
+         #include UGENERAL:IP_ERR_ACTIVATE
+      endif 
+      
+      deleteinstance v_instance 
+      #include UGENERAL:IP_ERR_DELINST
+   endfor 
+
+   return 0
+end ; IP_DEL_TAB
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-03T13:19:34.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UTAB</DAT>
+<DAT name="ULABEL">IP_GET_PK</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get the PK fields=value</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry IP_GET_PK 
+   returns string 
+   variables 
+      string v_ftkeys
+   endvariables    
+
+   if ($dbocc("&lt;UENTITY&gt;") = 0)
+      message "IP_GET_PK: No retrieve has occured yet. No way to determine the PK value."
+      return -1
+   endif 
+   ; now get the primary key fields 
+   v_ftkeys = $keyfields(&lt;UENTITY&gt;, 1)
+
+   ; make sure there is only on 
+   if ($itemcount(v_ftkeys) != 1) 
+      message "IP_GET_PK: Encountered an unexpected number of key fields."
+   endif
+
+   ; now get the corresponding key values 
+   putlistitems/id/field v_ftkeys
+
+   return v_ftkeys
+end ; CE_GET_PK</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-05T13:20:57.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UTAB</DAT>
+<DAT name="ULABEL">IP_INIT_TAB</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Initiate the tab field</DAT>
+<DAT name="UTEXT" xml:space='preserve'>;entry IP_INIT_TAB
+;   #for TAB = (&lt;TABS&gt;) 
+;   if (FTTABS.&lt;UENTITY&gt; = "") 
+;      FTTABS.&lt;UENTITY&gt;/init = "&lt;TAB&gt;"
+;   endif 
+;   putitem/id $valrep(FTTABS.&lt;UENTITY&gt;), "&lt;TAB&gt;", $text(L_&lt;TAB&gt;)
+;   #endfor 
+;
+;   call IP_ACTIVATE_TAB(FTTABS.&lt;UENTITY&gt;, CE_GET_PK())
+;   #include UGENERAL:IP_ERR_CALL
+;
+;   return 0
+;end ; IP_INIT_TAB</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-10-03T13:31:45.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UTAB</DAT>
+<DAT name="ULABEL">IP_SET_TAB</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Set tab content</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry IP_SET_TAB
+   ; Set the tab content 
+   ; @version = 0.1
+   ; @author  = Dennis E.J. Vorst
+
+   ; make sure the defines are there 
+   #ifundefined FTTABS
+      #error "UTAB:IP_SET_TAB - FTTABS is not defined in &lt;$componentname&gt;"
+   #elseif "&lt;FTTABS&gt;" = ""
+      #error "UTAB:IP_SET_TAB - FTTABS doesnot contain any values in &lt;$componentname&gt;"
+   #endif 
+   
+   #for FTTAB = (&lt;FTTABS&gt;) 
+   if (FTTABS.&lt;UENTITY&gt; = "") 
+      FTTABS.&lt;UENTITY&gt;/init = "&lt;FTTAB&gt;"
+   endif 
+   putitem/id $valrep(FTTABS.&lt;UENTITY&gt;), "&lt;FTTAB&gt;", $text(L_&lt;FTTAB&gt;)
+   #endfor 
+
+   return(0)
+end ; IP_SET_TAB</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by UNIFACE - (C) Compuware Corporation -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.5" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">UBANK</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Bank Library</DAT>
+<DAT name="UTIMESTAMP">2014-10-23T09:16:58.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-11-01T08:14:39.68</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UBANK</DAT>
+<DAT name="ULABEL">CONSTRUCTIBAN</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Construct the iban number</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry constructIban
+   returns string
+   params 
+      string p_cdcountry : in
+      string p_cdbank    : in
+      string p_nraccount : in
+   endparams 
+   variables 
+      string v_cdiban, v_cdcheck
+      numeric v_nrlength
+   endvariables 
+
+   ; init 
+   v_nrlength = 10
+
+   ; in the Netherlands an accountnumber is 10 numbers long 
+   ; some contain leading zeros
+   if ($length(p_nraccount) &lt; 10)
+      p_nraccount = $concat("00000000000000000000", p_nraccount)
+      p_nraccount = p_nraccount[$length(p_nraccount) + 1 - v_nrlength]
+   endif 
+
+   v_cdcheck = getCheckDigit($concat(p_cdbank, p_nraccount), p_cdcountry)
+
+   return $concat(p_cdcountry, v_cdcheck, p_cdbank, p_nraccount)
+end ; constructIban</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-31T14:42:41.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UBANK</DAT>
+<DAT name="ULABEL">GETCHECKDIGIT</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Calculate the check digit</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry getCheckDigit
+   returns string 
+   ; The check digit is calculated using :
+   ; - getting the accountnumber 
+   ; - concatenating the countrycode 
+   ; - replacing the numbers with values (A=10, B=11, ..., Y=34, Z=35)
+   ; - adding 2 zeros at the end 
+   ; - calculating the modulo 97
+   ; - subtracting the remainder from 98 
+   ; if the result is smaller than 10 add a leading zero.
+   params 
+      string p_nraccount : in
+      string p_cdcountry : in
+   endparams 
+   variables 
+      string v_nrcheck, v_nmchar
+      numeric v_nrcounter, v_nrvalue
+   endvariables 
+
+   ; steps 1 and 2 
+   p_nraccount = $concat(p_nraccount, p_cdcountry)
+
+   ; replace the strings by numbers 
+   v_nrcounter = 1
+   while(v_nrcounter &lt;= $length(p_nraccount))
+      v_nmchar = p_nraccount[v_nrcounter:1]
+      
+      if (v_nmchar != 0 &amp;&amp; $number(v_nmchar) = 0)
+         ; nu numbers in the string so it must be A-Z
+         v_nrvalue = letterToValue(v_nmchar)
+      else 
+         v_nrvalue = v_nmchar
+      endif 
+
+      v_nrcheck    = $concat(v_nrcheck, v_nrvalue)
+      v_nrcounter += 1
+   endwhile 
+
+   ; add two zeros, to simulate the presence of the checkdigits
+   v_nrcheck = $concat(v_nrcheck, "00")
+
+   ; modulo 97, we reuse the v_nrvalue variable 
+   v_nrvalue = v_nrcheck%97
+   v_nrvalue = 98 - v_nrvalue
+
+   if ($length(v_nrvalue) = 1)
+      v_nrvalue =  $concat("0", v_nrcheck)
+   endif 
+   return v_nrvalue 
+end ; getCheckDigit
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-31T14:26:20.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UBANK</DAT>
+<DAT name="ULABEL">LETTERTOVALUE</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Convert an IBAN letter</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry charToValue
+   returns numeric
+   params 
+      string p_char : in
+   endparams 
+   variables 
+      string v_ftlist
+      numeric v_nrvalue
+   endvariables 
+
+   putitem/id v_ftlist, "A", 10
+   putitem/id v_ftlist, "B", 11
+   putitem/id v_ftlist, "C", 12
+   putitem/id v_ftlist, "D", 13
+   putitem/id v_ftlist, "E", 14
+   putitem/id v_ftlist, "F", 15
+   putitem/id v_ftlist, "G", 16
+   putitem/id v_ftlist, "H", 17
+   putitem/id v_ftlist, "I", 18
+   putitem/id v_ftlist, "J", 19
+   putitem/id v_ftlist, "K", 20
+   putitem/id v_ftlist, "L", 21
+   putitem/id v_ftlist, "M", 22
+   putitem/id v_ftlist, "N", 23
+   putitem/id v_ftlist, "O", 24
+   putitem/id v_ftlist, "P", 25
+   putitem/id v_ftlist, "Q", 26
+   putitem/id v_ftlist, "R", 27
+   putitem/id v_ftlist, "S", 28
+   putitem/id v_ftlist, "T", 29
+   putitem/id v_ftlist, "U", 30
+   putitem/id v_ftlist, "V", 31
+   putitem/id v_ftlist, "W", 32
+   putitem/id v_ftlist, "X", 33
+   putitem/id v_ftlist, "Y", 34
+   putitem/id v_ftlist, "Z", 35
+
+   v_nrvalue = $item(p_char, v_ftlist)
+   if (v_nrvalue &lt; 10 || v_nrvalue &gt; 35)
+      return -1
+   endif 
+
+   return v_nrvalue
+end ; charToValue</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

@@ -1,0 +1,230 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" repversion="1" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">UFOLDER</DAT>
+<DAT name="UTIMESTAMP">2015-08-20T12:38:37.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-09-11T12:26:14.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UFOLDER</DAT>
+<DAT name="ULABEL">IP_FILTER_EXT</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Filter the extensions</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry IP_FILTER_EXT
+   returns string 
+   params 
+      string p_files : in ; list of files 
+      string p_exts  : in ; list of desired extensions 
+   endparams 
+   variables 
+      string v_ext, v_files, v_file
+   endvariables 
+
+   ; if no filter return everything
+   if (p_exts = "")
+      return p_files 
+   endif 
+
+   ; otherwise step through the list and put the matching records in a seperate list 
+   forlist v_ext in p_exts
+      v_ext = $concat(".", v_ext)
+      forlist v_file in p_files 
+         if ($rscan(v_file, v_ext) = (1 + $length(v_file) - $length(v_ext)))
+
+            putitem v_files, -1, v_file         
+         endif 
+      endfor 
+   endfor
+
+   return v_files
+end ; IP_FILTER_EXT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-09-07T16:15:45.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UFOLDER</DAT>
+<DAT name="ULABEL">IP_GET_CONTENT</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get all content of folder</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry IP_GET_FOLDERCONTENT
+   returns string 
+   params 
+      string p_path : in
+      string p_type : in ; "ALL", "FILE", "DIR"
+   endparams 
+   variables
+      string v_list 
+      string v_folder, v_folders, v_files, v_file, v_output
+   endvariables 
+
+   if (p_path = "" || p_type = "")
+      return -1
+   endif 
+
+   v_folders = IP_LIST_FOLDERS(p_path)
+   ; include the rootfolder as well 
+   putitem v_folders, -1, p_path
+
+
+   forlist v_folder in v_folders 
+      v_files = IP_LIST_FILES(v_folder)
+      if (v_files != "")
+         if (v_list = "")
+            v_list = v_files
+         else 
+            v_list = $concat(v_list, "&uSEP;", v_files)
+         endif 
+      endif 
+   endfor 
+ 
+   v_files = v_list 
+
+   if (p_type != "FILE")
+      if (v_folders != "")
+         v_output = v_folders 
+      endif 
+   endif
+
+   if (p_type != "DIR")
+      if (v_files != "")
+         if (v_output = "")
+            v_output = v_files 
+         else 
+            v_output = $concat(v_output, "&uSEP;", v_files)
+         endif 
+      else 
+      endif 
+   endif
+
+   return v_output
+end ; IP_GET_FOLDERCONTENT</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-08-20T12:41:53.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UFOLDER</DAT>
+<DAT name="ULABEL">IP_LIST_FILES</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>List files in a folder</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry IP_LIST_FILES
+   ; return the list of files in the path 
+   returns string 
+   params 
+      string p_path : in
+   endparams 
+   variables 
+      string v_files, v_file, v_output
+   endvariables 
+
+   if (p_path = "")
+      message "Path is mandatory value"
+      return -1
+   endif 
+
+   v_files = $ldirlist(p_path, "FILE")
+   forlist v_file in v_files
+      v_file = $concat(p_path, "\", v_file)
+      putitem v_output, -1, v_file
+   endfor
+   return v_output
+end ; IP_LIST_FILES</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2015-09-09T15:35:12.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UFOLDER</DAT>
+<DAT name="ULABEL">IP_LIST_FOLDERS</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>List folders in folder</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry IP_LIST_FOLDERS
+   ; return the list of folders in the path 
+   returns string 
+   params 
+      string p_path : in
+   endparams 
+   variables 
+      string v_folder, v_folders, v_output, v_subfolders
+   endvariables 
+
+   if (p_path = "")
+      message "Path is mandatory value"
+      return -1
+   endif 
+
+   v_folders = $ldirlist(p_path, "DIR")
+   forlist v_folder in v_folders 
+      v_folder = $concat(p_path, "\", v_folder)
+      putitem v_output, -1, v_folder
+
+      v_subfolders = IP_LIST_FOLDERS(v_folder)
+      if (v_subfolders != "")
+         v_output = $concat(v_output, "&uSEP;", v_subfolders)
+      endif 
+   endfor
+   return v_output
+end ; IP_LIST_FOLDERS</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

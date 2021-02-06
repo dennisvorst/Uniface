@@ -1,0 +1,1259 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by UNIFACE - (C) Compuware Corporation -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.6" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">UXLS15</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Excel 15 library</DAT>
+<DAT name="UTIMESTAMP">2014-11-01T18:28:39.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T16:35:20.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">CHECK_VERSION</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Check the Excel version</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry CHECK_VERSION
+   ; @description = Check if the version of excel is the same as supported by this component. If not return a negative status.
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   ; @required = UXLS15:GET_APPLICATION
+   variables 
+      handle v_msexcel
+      string v_nmversion
+   endvariables 
+
+   ; *** Excel ***
+   ; start a new instance of the excel application 
+   call GET_APPLICATION(v_msexcel)
+   #include UGENERAL:IP_ERR_CALL
+   
+   ; check for the correct version
+;   activate v_msexcel-&gt;GET_VERSION(v_nmversion)
+   v_msexcel-&gt;GET_VERSION(v_nmversion)
+   if ($status &lt; 0)
+      message "CHECK_VERSION: An error occured (%%$status%%%)"
+   endif 
+   if (v_nmversion != "15.0")
+      message "CHECK_VERSION: This software was written for version 15.0. Your version is %%v_nmversion%%%"
+   else 
+      message "CHECK_VERSION: You are using the correct version of VBA (%%v_nmversion%%%)"
+   endif
+
+   deleteinstance v_msexcel
+   return(0)
+end ; CHECK_VERSION
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-30T12:15:09.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">COLUMN2NUMBER</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Switch cell B1 to 2</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry column2Number
+   ; @description = turn the alfanumeric column name into a number A=1 and XFD (most right value in Excel 2010) = 16384
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   ; @required = MATERIAL:IP_STRING
+   params 
+      string  p_nmcolumn : in
+      numeric p_value    : out
+   endparams 
+   variables 
+      numeric v_length, v_value, v_pointer
+      string  v_char 
+   endvariables 
+   
+   ; init 
+   v_length  = $length(p_nmcolumn)
+   v_pointer = 1
+
+   while (v_pointer &lt;= v_length)
+      v_char = p_nmcolumn[v_pointer:1]
+
+      ; translate the char to a number 
+      call alphabet2Number(v_char, v_value)
+      #include UGENERAL:IP_ERR_CALL
+      
+      ; calculate 
+      if ((v_length - v_pointer) &gt;= 1)
+         p_value += (v_value * $power(26, v_length - v_pointer))
+      else 
+         p_value += v_value
+      endif
+
+      ; next 
+      v_pointer += 1
+   endwhile
+   return(0)
+end ; column2Number
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T16:35:20.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">DEL_APPLICATION</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Delete the application</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry DEL_APPLICATION
+   ; @description = create a bew instance of the application signature 
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params
+      handle p_msexcel : inout
+   endparams 
+
+   if (p_msexcel != "")
+      deleteinstance p_msexcel
+      if ($status &gt;=0)
+         message "DEL_APPLICATION: Application succesfully removed"
+      else 
+         message "DEL_APPLICATION: An error occured (%%$status%%%)"
+      endif 
+   else 
+      message "Handle p_msexcel is empty"
+   endif 
+   return(0)
+end ; DEL_APPLICATION</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T16:41:49.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">DEL_WORKBOOKS</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Delete workbooks</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry DEL_WORKBOOKS
+   ; @description = delete a workbooks handle
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle p_workbooks : in
+   endparams 
+
+   if (p_workbooks = "")
+      message "Workbooks handle is empty"
+      return(0)
+   endif 
+
+   deleteinstance p_workbooks
+   if ($status &gt;= 0)
+      message "DEL_WORKBOOKS: Workbooks succesfully removed"
+   else 
+      message "DEL_WORKBOOKS: An error occured (%%$status%%%)"
+   endif
+
+   return(0)
+end ; DEL_WORKBOOKS
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T16:35:20.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GETFILETYPES</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get the excel filetypes</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry getFileTypes
+   ; @description = return a list of filetypes that are supported by Microfost Excel 
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   ; @references = http://msdn.microsoft.com/en-us/library/office/ff198017%28v=office.15%29.aspx
+   params 
+      string p_list : out
+   endparams
+
+   putitem/id p_list, 6, "CSV"
+   putitem/id p_list, 50, "XLSB"	
+   putitem/id p_list, 51, "XLSX"
+   putitem/id p_list, 52, "XLSM"	
+   putitem/id p_list, 56, "XLS"
+   putitem/id p_list, -4158, "TXT"	
+   putitem/id p_list, 36, "PRN"	
+
+   return(0)
+end ; getFileTypes
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T16:42:20.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_ACTIVECELL</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get the active cell</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_ACTIVECELL
+   ; @description = set the current active cell, or range of cells in the active worksheet
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle p_activesheet  : in
+      string p_nmrangestart : in
+      string p_nmrangeend   : in
+      handle p_activecell   : out
+   endparams 
+
+   if (p_activesheet = "")
+      message "Activesheet handle is empty"
+      return(0)
+   endif 
+   if (p_nmrangestart = "")
+      message "Start coordinates are empty"
+      return(0)
+   endif 
+
+   if (p_nmrangeend = "")
+      p_activesheet-&gt;GET_RANGE(p_activecell, p_nmrangestart, -)
+   else 
+      p_activesheet-&gt;GET_RANGE(p_activecell, p_nmrangestart, p_nmrangeend)
+   endif 
+
+   if ($status &gt;= 0)
+      message "GET_ACTIVECELL: Range succesfully retrieved"
+   else 
+      message "GET_ACTIVECELL: An error occured (%%$status%%%)"
+   endif 
+   return(0)
+end ; GET_ACTIVECELL
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-30T11:47:37.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_ACTIVESHEET</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get the activesheet</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_ACTIVESHEET
+   ; @description = create set the activesheet in a workbook
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle p_workbook    : in
+      handle p_activesheet : out
+   endparams 
+
+   if (p_workbook = "")
+      message "GET_ACTIVESHEET: Workbook handle is empty"
+      return(0)
+   endif 
+
+   p_workbook-&gt;GET_ACTIVESHEET(p_activesheet)
+   if ($status &gt;= 0)
+      message "GET_ACTIVESHEET: Activesheet succesfully set"
+   else 
+      message "GET_ACTIVESHEET: An error occured (%%$status%%%)"
+   endif 
+
+   return(0)
+end ; GET_ACTIVESHEET
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-28T11:27:37.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_APPLICATION</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Create new application</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_APPLICATION
+   ; @description = create a new instance of the application signature 
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params
+      handle p_msexcel : out
+   endparams 
+
+   newinstance "XLS15_APPLICATION", p_msexcel
+   if ($status &gt;=0)
+      message "GET_APPLICATION: Application succesfully created"
+   else 
+      message "GET_APPLICATION: An error occured (%%$status%%%)"
+   endif 
+   return(0)
+end ; GET_APPLICATION
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-30T12:10:46.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_CELLVALUES</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get a list of values</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_CELLVALUES
+   ; @description = step through the columns and put their values in a list 
+   params
+      handle  p_activesheet   : in
+      string  p_nmstartcolumn : in
+      numeric p_nrstartrow    : in
+      string  p_nmendcolumn   : in
+      numeric p_nrendrow      : in
+      boolean p_endatemptyrow : in ; quit executing when an entire row is empty
+      string  p_list          : out
+   endparams 
+   variables 
+      numeric v_nrrow, v_nrendcolumn, v_nrcolumn
+      string v_value, v_nmcolumn
+      boolean p_isemptyrow
+      handle v_activecell
+   endvariables 
+
+   ; init 
+   ; turn the char values to ascii
+   call column2Number(p_nmstartcolumn, v_nrcolumn)
+   #include UGENERAL:IP_ERR_CALL
+   call column2Number(p_nmendcolumn, v_nrendcolumn)
+   #include UGENERAL:IP_ERR_CALL
+
+   ; from left to right 
+;   while (v_nrcolumn &lt; v_nrendcolumn)
+   while (v_nrcolumn &lt;= v_nrendcolumn)
+      ; within the column
+      v_nrrow = p_nrstartrow
+      while (v_nrrow &lt;= p_nrendrow)
+         ; translate the number to a cell
+         call number2Column(v_nrcolumn, v_nmcolumn)
+         #include UGENERAL:IP_ERR_CALL
+
+         message "Processing... %%$concat(v_nmcolumn, v_nrrow)%%%"
+         ; move to the cell 
+;         call IP_GET_ACTIVECELL(p_activesheet, $concat(p_nmstartcolumn, v_nrrow), "", v_activecell)
+         call GET_ACTIVECELL(p_activesheet, $concat(v_nmcolumn, v_nrrow), "", v_activecell)
+         #include UGENERAL:IP_ERR_CALL
+
+         ; get the contents
+         v_activecell-&gt;GET_VALUE(v_value, -)
+
+         ; put it in a list
+         putitem p_list, -1, v_value
+
+         ; next
+         v_nrrow += 1
+      endwhile
+
+      ; move one column over 
+      v_nrcolumn += 1
+   endwhile 
+   return(0)
+end ; GET_CELLVALUES
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-30T11:58:07.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_EMPTYCOLUMN</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Look for an empty column</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_EMPTYCOLUMN
+   ; @description = Determine the column name for the first empty cell you encounter. This function returns the last row where values where found.
+   ; @author 		= Dennis E.J. Vorst 
+   ; @company 	= Vorst Informatisering
+   ; @date		= 26-5-2014
+   ; @version		= 1.0.0
+   ; @required	= UXLS15:NUMBER2COLUMN
+   params 
+      handle p_activesheet : in
+      string p_nmcolumn    : out
+   endparams
+   variables 
+      handle  v_activecell
+      numeric v_counter
+      string  v_value, v_char
+   endvariables
+
+   ; init 
+   v_counter = 1 ; A
+   v_value = "start"
+
+   while (v_value != "")
+      ; get the corresponding char value
+      call number2Column(v_counter, v_char)
+      #include UGENERAL:IP_ERR_CALL
+
+      ; move to the cell 
+      call GET_ACTIVECELL(p_activesheet, $concat(v_char, "1"), "", v_activecell)
+      #include UGENERAL:IP_ERR_CALL
+
+      ; get the contents
+      v_activecell-&gt;GET_VALUE(v_value, -)
+
+      if (v_value = "")
+         p_nmcolumn = v_char
+         break
+      endif
+
+      ; next column
+      v_counter += 1
+   endwhile 
+
+   ; scale it one back and turn it into a char
+   call number2Column(v_counter - 1, p_nmcolumn)
+   #include UGENERAL:IP_ERR_CALL
+
+   return(0)
+end ; GET_EMPTYCOLUMN
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T17:00:15.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_EMPTYROW</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get an empty row</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_EMPTYROW
+   ; @description = Determine the rownumber for the first empty cell you encounter. This function returns the last row where values where found.
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   ; @required = UXLS15:GET_CELLVALUES
+   params 
+      handle  p_activesheet   : in
+      string  p_nmcolumnstart : in
+      numeric p_nrrowstart    : in
+      string  p_nmcolumnend   : in 
+      numeric p_nrrowend      : in
+      numeric p_nrrow         : out
+   endparams
+   variables
+      numeric v_nrcolumnstart, v_nrcolumnend, v_nrcolumn
+      string v_nmcolumn, v_value, v_item, v_list
+      boolean v_isempty
+      handle v_activecell
+   endvariables
+
+   if (p_nmcolumnstart = "")
+      p_nmcolumnstart = "A"
+   endif 
+   if (p_nmcolumnend = "")
+      p_nmcolumnend = "IV"
+   endif 
+   if (p_nrrowstart = "")
+      p_nrrowstart = 1
+   endif 
+   if (p_nrrowend = "")
+      p_nrrowend = 65536
+   endif 
+   p_nrrow    = p_nrrowstart
+   v_nrcolumn = v_nrcolumnstart
+   v_isempty  = 1
+
+   ; step through the cells 
+   while (p_nrrow &lt; p_nrrowend)
+      ; work from top to bottom 
+      
+      ; get the entire row at once 
+      call GET_CELLVALUES(p_activesheet, p_nmcolumnstart, p_nrrow, p_nmcolumnend, p_nrrow, 0, v_list)
+      #include UGENERAL:IP_ERR_CALL
+
+      ; now evaluate its content
+      forlist v_item in v_list 
+         if (v_item != "")
+            v_isempty = 0
+            break
+         endif
+      endfor
+
+      if (v_isempty)
+         break
+      else
+         ; reset to true
+         v_isempty = 1
+      endif 
+
+      ; next row 
+      p_nrrow += 1
+   endwhile 
+
+   ; scale it one back 
+   p_nrrow -= 1
+
+   return(0)
+end ; GET_EMPTYROW
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T17:00:15.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_FILENAME</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>get the filename</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_FILENAME
+   ; @description = retrieve the name of the tab in the worksheet
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle p_workbook : in 
+      string p_value    : out
+   endparams 
+
+   if (p_workbook = "")
+      message "Workbook handle is empty"
+      return(0)
+   endif 
+
+   p_workbook-&gt;GET_FULLNAME(p_value)
+   if ($status &gt;= 0)
+      message "GET_FILENAME: Filename retrieved from workbook"
+   else 
+      message "GET_FILENAME: An error occured (%%$status%%%)"
+   endif 
+
+   return(0)
+end ; GET_FILENAME
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T17:00:15.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_TABNAME</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get the tabname</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_TABNAME
+   ; @description = retrieve the name of the tab in the worksheet
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle p_activesheet : in 
+      string p_value       : out
+   endparams 
+
+   if (p_activesheet = "")
+      message "Activesheet handle is empty"
+      return(0)
+   endif 
+   if (p_value = "")
+      message "No value entered"
+      return(0)
+   endif 
+
+   p_activesheet-&gt;GET_NAME(p_value)
+   if ($status &gt;= 0)
+      message "GET_TABNAME: Name gotten from activesheet"
+   else 
+      message "GET_TABNAME: An error occured (%%$status%%%)"
+   endif 
+
+   return(0)
+end ; GET_TABNAME
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-30T11:33:31.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_TABNAMES</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get a list of tabnames</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_TABNAMES
+   ; @description = return a list of all the tabnames in the workbook
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-8-2014
+   ; @version 1.0.0
+   ; @required = UXLS15:GOTO_FIRSTTAB
+   params 
+      handle p_workbook : in
+      string p_ftlist   : out
+   endparams 
+   variables
+      string v_nmtab
+      numeric v_nrtotal, v_nrcurrent
+      handle v_worksheets, v_activesheet, v_range
+   endvariables 
+
+   ; init 
+   ;*** get the count and then process the names ***
+   activate p_workbook-&gt;GET_WORKSHEETS(v_worksheets) ; returns a sheets object
+   #include UGENERAL:IP_ERR_ACTIVATE
+   
+   activate v_worksheets-&gt;GET_COUNT(v_nrtotal)
+   #include UGENERAL:IP_ERR_ACTIVATE
+   
+   ;*** move the pointer to the first tab ***
+   v_nrcurrent = -1
+   while (v_nrcurrent != 1)
+      ; if it is not the first go back 
+      call GOTO_FIRSTTAB(p_workbook)
+      #include UGENERAL:IP_ERR_CALL
+
+      ; get the active sheet number
+      activate p_workbook-&gt;GET_ACTIVESHEET(v_activesheet)
+      #include UGENERAL:IP_ERR_ACTIVATE
+      v_activesheet-&gt;GET_INDEX(v_nrcurrent)
+   endwhile 
+
+   ; step through all the tabs
+   while (v_nrcurrent &lt;= v_nrtotal)
+      ;*** get the active sheet number ***
+      activate p_workbook-&gt;GET_ACTIVESHEET(v_activesheet)
+      #include UGENERAL:IP_ERR_ACTIVATE
+      
+      ; get the current index number 
+      v_activesheet-&gt;GET_INDEX(v_nrcurrent)
+
+      ; get the name
+      activate v_activesheet-&gt;GET_NAME(v_nmtab)
+      #include UGENERAL:IP_ERR_ACTIVATE
+   
+      ; add it to the list
+      putitem/id p_ftlist, $number(v_nrcurrent), v_nmtab
+
+      ; next
+      ; go to the next page
+      v_activesheet-&gt;GET_NEXT(v_range)
+      if ($status &lt; 0)
+         debug
+      endif 
+      if (v_range = "")
+         break
+      else 
+         v_range-&gt;"ACTIVATE"(v_nrcurrent)
+      endif
+   endwhile
+ 
+   return(0)
+end ; GET_TABNAMES</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T17:00:15.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_VALUE</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get the value</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_VALUE
+   ; @description = retrieve a value from the active cell
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle p_activecell   : in 
+      string p_nmcoordinate : in
+      string p_value        : out
+   endparams 
+
+   if (p_activecell = "")
+      message "Activecell handle is empty"
+      return(0)
+   endif 
+
+   p_activecell-&gt;GET_VALUE(p_value, p_nmcoordinate)
+   if ($status &gt;= 0)
+      message "getValue: Value retrieved from activecell"
+   else 
+      message "getValue: An error occured (%%$status%%%)"
+   endif 
+
+   return(0)
+
+end ; getValue
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T16:42:20.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_WORKBOOK</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>get a single workbook</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_WORKBOOK
+   ; @description = Create a new workbook object 
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle p_workbooks  : in
+      string p_nmtemplate : in
+      handle p_workbook   : out
+   endparams 
+
+   if (p_workbooks = "")
+      message "Workbooks handle is empty"
+      return(0)
+   endif 
+
+   ; if no template is entered make it optional. This is done by parsing a - [minus] character. Donot parse an empty "" string
+   if (p_nmtemplate = "")
+      ; create a new workbook without a template
+      p_workbooks-&gt;ADD(p_workbook, -)
+      if ($status &gt;= 0)
+         message "GET_WORKBOOK: Workbook succesfully created"
+      else 
+         message "GET_WORKBOOK: An error occured (%%$status%%%)"
+      endif 
+   else 
+      ; create a new workbook without a template
+      p_workbooks-&gt;ADD(p_workbook, p_nmtemplate)
+      if ($status &gt;= 0)
+         message "GET_WORKBOOK: Workbook succesfully created"
+      else 
+         message "GET_WORKBOOK: An error occured (%%$status%%%)"
+      endif 
+   endif 
+
+   return(0)
+end ; GET_WORKBOOK
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T16:41:49.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GET_WORKBOOKS</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Get the workbooks handle</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GET_WORKBOOKS
+   ; @description = create a new workbooks handle
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle p_msexcel   : in
+      handle p_workbooks : out
+   endparams 
+
+   if (p_msexcel = "")
+      message "You must create an instance of APPLICATION before creating a workbook"
+   else 
+;      activate P_msexcel-&gt;"GET_WORKBOOKS"(p_workbooks)
+; according to this thread http://unifaceinfo.com/forum/unifaceintegrations/integrating-msexcel-2010/ using no activate works as well
+      p_msexcel-&gt;"GET_WORKBOOKS"(p_workbooks)
+      if ($status &gt;= 0)
+         message "GET_WORKBOOKS: Workbooks succesfully created"
+      else 
+         message "GET_WORKBOOKS: An error occured (%%$status%%%)"
+      endif 
+   endif 
+   return(0)
+end ; GET_WORKBOOKS</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-28T11:38:29.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GOTO_FIRSTTAB</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Move to the first tab</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GOTO_FIRSTTAB
+   ; @description = scroll to the first tab of the excel document 
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-8-2014
+   ; @version 1.0.0
+   params 
+      handle p_workbook : in
+   endparams 
+   variables
+      numeric v_nrtotal, v_nrcurrent
+      handle v_worksheets, v_activesheet, v_range
+   endvariables 
+
+   ; init 
+   v_nrtotal = 1
+
+   ;*** get the active sheet number ***
+   activate p_workbook-&gt;GET_ACTIVESHEET(v_activesheet)
+   #include UGENERAL:IP_ERR_ACTIVATE
+   v_activesheet-&gt;GET_INDEX(v_nrcurrent)
+   
+   ; step through all the tabs
+   while (v_nrcurrent != v_nrtotal)
+      ; previous
+      ;*** get the active sheet number ***
+      activate p_workbook-&gt;GET_ACTIVESHEET(v_activesheet)
+      #include UGENERAL:IP_ERR_ACTIVATE
+      v_activesheet-&gt;GET_PREVIOUS(v_range)
+      v_activesheet-&gt;GET_INDEX(v_nrcurrent)
+      v_range-&gt;"ACTIVATE"(v_nrcurrent)
+
+      if (v_nrcurrent = v_nrtotal)
+         return(0)
+      endif 
+   endwhile
+
+   return(0)
+end ; GOTO_FIRSTTAB
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T17:00:15.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GOTO_LASTTAB</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>move to the last tab</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GOTO_LASTTAB
+   ; @description = scroll to the last tab of the excel document 
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-8-2014
+   ; @version 1.0.0
+   params 
+      handle p_workbook : in
+   endparams 
+   variables
+      numeric v_nrtotal, v_nrcurrent
+      handle v_worksheets, v_activesheet, v_range
+   endvariables 
+
+   ; init 
+   ;*** get the count and then process the names ***
+   activate p_workbook-&gt;GET_WORKSHEETS(v_worksheets) ; returns a sheets object
+   #include UGENERAL:IP_ERR_ACTIVATE
+   activate v_worksheets-&gt;GET_COUNT(v_nrtotal)
+   #include UGENERAL:IP_ERR_ACTIVATE
+   
+   ;*** get the active sheet number ***
+   activate p_workbook-&gt;GET_ACTIVESHEET(v_activesheet)
+   #include UGENERAL:IP_ERR_ACTIVATE
+   v_activesheet-&gt;GET_INDEX(v_nrcurrent)
+
+   ; step through all the tabs
+   while (v_nrcurrent != v_nrtotal)
+      ; next
+      ;*** get the active sheet number ***
+      activate p_workbook-&gt;GET_ACTIVESHEET(v_activesheet)
+      #include UGENERAL:IP_ERR_ACTIVATE
+      v_activesheet-&gt;GET_NEXT(v_range)
+      v_activesheet-&gt;GET_INDEX(v_nrcurrent)
+      v_range-&gt;"ACTIVATE"(v_nrcurrent)
+
+      if (v_nrcurrent = v_nrtotal)
+         return(0)
+      endif 
+   endwhile
+
+   return(0)
+end ; GOTO_LASTTAB
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T17:00:15.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">GOTO_NAMEDTAB</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Move to the named tab</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry GOTO_NAMEDTAB
+   ; @description = scroll to the tab with the same name 
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-8-2014
+   ; @version 1.0.0
+   ; @required = UXLS15:GOTO_FIRSTTAB
+   params 
+      handle p_workbook : in
+      string p_nmtab    : in
+   endparams 
+   variables
+      boolean v_found
+      string v_nmtab
+      numeric v_nrtotal, v_nrcurrent
+      handle v_worksheets, v_activesheet, v_range
+   endvariables 
+
+   ; init 
+   v_found = 0
+   ;*** get the count and then process the names ***
+   activate p_workbook-&gt;GET_WORKSHEETS(v_worksheets) ; returns a sheets object
+   #include UGENERAL:IP_ERR_ACTIVATE
+   activate v_worksheets-&gt;GET_COUNT(v_nrtotal)
+   #include UGENERAL:IP_ERR_ACTIVATE
+   
+   ;*** get the active sheet number ***
+   v_nrcurrent = -1
+   while (v_nrcurrent != 1)
+      ; if it is not the first go back 
+      call GOTO_FIRSTTAB(p_workbook)
+      #include UGENERAL:IP_ERR_CALL
+
+      ; get the active sheet number
+      activate p_workbook-&gt;GET_ACTIVESHEET(v_activesheet)
+      #include UGENERAL:IP_ERR_ACTIVATE
+      v_activesheet-&gt;GET_INDEX(v_nrcurrent)
+   endwhile 
+
+   ; step through all the tabs
+   while (!v_found)
+      ;*** get the active sheet number ***
+      activate p_workbook-&gt;GET_ACTIVESHEET(v_activesheet)
+      #include UGENERAL:IP_ERR_ACTIVATE
+   
+      ; get the current index
+      v_activesheet-&gt;GET_INDEX(v_nrcurrent)
+
+      ; get the name
+      activate v_activesheet-&gt;GET_NAME(v_nmtab)
+      #include UGENERAL:IP_ERR_ACTIVATE
+      
+      if (v_nmtab = p_nmtab)
+         v_found = 1
+         message "Tab with name %%p_nmtab%%% found in this excel document!"
+         return (0)
+      endif 
+
+      ; next
+      v_activesheet-&gt;GET_NEXT(v_range)
+      v_range-&gt;"ACTIVATE"(v_nrcurrent)
+
+      if (v_nrcurrent = v_nrtotal)
+         break
+      endif
+   endwhile
+
+   if (!v_found)
+      message "Tab with name %%p_nmtab%%% NOT found in this excel document!"
+   endif 
+
+   return(0)
+end ; GOTO_NAMEDTAB
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-30T12:03:19.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">NUMBER2COLUMN</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Switch cell 2 to B1</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry number2Column
+   ; @description = turn the numeric value into an alfanumeric column name A=1 and XFD (most right value in Excel 2010) = 16384
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   ; @required = MATERIAL:IP_STRING
+   params 
+      numeric p_value    : in
+      string  p_nmcolumn : out
+   endparams 
+   variables 
+      numeric v_value, v_number, v_result
+      string v_char 
+   endvariables
+
+   if (p_value = 0)
+      message "Value passed is 0 and should be 1 or higher."
+      return(-1)
+   endif 
+
+   while (p_value != 0)
+      v_result = p_value%26
+      ; if the result = 0 then the p_value = 0 or it fits exactly 
+      if (v_result = 0)
+         v_result  = 26
+      endif 
+
+      call number2Alphabet(v_result, v_char)
+      #include UGENERAL:IP_ERR_CALL
+
+      p_nmcolumn = $concat(v_char, p_nmcolumn)
+   
+      if (v_result = p_value)
+         p_value = 0
+      else 
+         p_value = (p_value - v_result)/26
+      endif 
+   endwhile   
+
+   return(0)
+end ; number2Column</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T16:42:20.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">OPEN_WORKBOOK</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Open the workbook</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry OPEN_WORKBOOK
+   ; @description = open an excel workbook
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   ; @issues = because i havenot figured out how to pass the - [default] sign as a parameter without using "" (), this entry only allows for filename and filetype and the rest of the parameters are passed as default.
+   params 
+      handle  p_workbooks : in 
+      string  p_nmfile    : in
+      numeric p_nmtype    : in
+      handle  p_workbook  : out
+   endparams 
+
+   if (p_workbooks = "")
+      message "Handle p_workbooks is empty"
+      return(0)
+   endif 
+
+   if (p_nmfile = "")
+      message "Please provide a valid filename"
+      return(0)
+   endif 
+
+   if (p_nmtype = "")
+      p_workbooks-&gt;"OPEN"(p_workbook, p_nmfile, -, -, -, -, -, -, -, -, -, -, -, -, -, -)
+      if ($status &gt;=0)
+         message "File %%p_nmfile%%% successfully opened"
+      else 
+         message "OPEN_WORKBOOK: An error occured (%%$status%%%)"
+      endif 
+   else 
+      p_workbooks-&gt;"OPEN"(p_workbook, p_nmfile, p_nmtype, -, -, -, -, -, -, -, -, -, -, -, -, -)
+      if ($status &gt;=0)
+         message "File %%p_nmfile%%% successfully opened"
+      else 
+         message "OPEN_WORKBOOK: An error occured (%%$status%%%)"
+      endif 
+   endif
+ 
+   return(0)
+end ; OPEN_WORKBOOK
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T17:00:15.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">SETVALUE</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Set the value</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry setValue
+   ; @description = put a value in the active cell
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle p_activecell : in 
+      string p_value      : in 
+   endparams 
+
+   if (p_activecell = "")
+      message "Activecell handle is empty"
+      return(0)
+   endif 
+
+   p_activecell-&gt;SET_VALUE(-, p_value)
+   if ($status &gt;= 0)
+      message "setValue: Value set on activecell"
+   else 
+      message "setValue: An error occured (%%$status%%%)"
+   endif 
+
+   return(0)
+
+end ; setValue
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T17:00:15.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">SET_FORMULAR1C1</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Set the cell formula</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry SET_FORMULAR1C1
+   ; @description = put a formula in the active cell
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle p_activecell : in 
+      string p_value      : in 
+   endparams 
+
+   if (p_activecell = "")
+      message "Activecell handle is empty"
+      return(0)
+   endif 
+
+   p_activecell-&gt;SET_FORMULAR1C1(p_value)
+   if ($status &gt;= 0)
+      message "SET_FORMULAR1C1: set on activecell"
+   else 
+      message "SET_FORMULAR1C1: An error occured (%%$status%%%)"
+   endif 
+
+   return(0)
+end ; SET_FORMULAR1C1
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T17:00:15.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">SET_TABNAME</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Set the name of the tab</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry SET_TABNAME
+   ; @description = set the name of the tab in the worksheet
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle p_activesheet : in 
+      string p_value       : in
+   endparams 
+
+   if (p_activesheet = "")
+      message "Activesheet handle is empty"
+      return(0)
+   endif 
+   if (p_value = "")
+      message "No value entered"
+      return(0)
+   endif 
+
+   p_activesheet-&gt;SET_NAME(p_value)
+   if ($status &gt;= 0)
+      message "SET_TABNAME: Name set in activesheet"
+   else 
+      message "SET_TABNAME: An error occured (%%$status%%%)"
+   endif 
+
+   return(0)
+end ; SET_TABNAME
+</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-19T16:35:20.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">UXLS15</DAT>
+<DAT name="ULABEL">SET_VISIBLE</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Set excels visibillity</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry SET_VISIBLE
+   ; @description = Toggle the visibillity of the Excel application 
+   ; @author = Dennis E.J. Vorst 
+   ; @company = Vorst Informatisering
+   ; @date = 26-5-2014
+   ; @version 1.0.0
+   params 
+      handle  p_msexcel   : in
+      boolean p_isvisible : in
+   endparams
+   variables 
+      boolean v_isvisible
+   endvariables
+
+   ; init 
+   if (p_msexcel = "")
+      message "You must create an instance of APPLICATION before setting the visibillity"
+   endif 
+
+   ; get the visibillity 
+;   activate p_msexcel-&gt;"GET_VISIBLE"(v_isvisible)
+   p_msexcel-&gt;"GET_VISIBLE_1"(v_isvisible)
+   if ($status &lt; 0)
+      message "SET_VISIBLE: An error occured (%%$status%%%)"
+   endif 
+
+   ; Toggle the visible
+   if (p_isvisible != v_isvisible)
+;      activate p_msexcel-&gt;"SET_VISIBLE"(p_isvisible)
+      p_msexcel-&gt;"SET_VISIBLE"(p_isvisible)
+      if ($status &lt; 0)
+         message "SET_VISIBLE: An error occured (%%$status%%%)"
+      endif 
+   else 
+      message "Excel application is allready set correctly"
+   endif
+   return(0)
+end ; SET_VISIBLE</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>
