@@ -167,8 +167,8 @@
  pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
 </DSC>
 <OCC>
-<DAT name="UTIMESTAMP">2020-12-12T18:12:24.00</DAT>
-<DAT name="UCOMPSTAMP">2020-12-08T13:59:17.00</DAT>
+<DAT name="UTIMESTAMP">2021-03-22T09:12:22.00</DAT>
+<DAT name="UCOMPSTAMP">2021-03-22T09:12:23.00</DAT>
 <DAT name="ULABEL">DRAGNDROP</DAT>
 <DAT name="WVPOS">3</DAT>
 <DAT name="WHPOS">1</DAT>
@@ -179,6 +179,7 @@
 <DAT name="MOVABLE">Y</DAT>
 <DAT name="HIDESTACK">N</DAT>
 <DAT name="UINHERIT">F</DAT>
+<DAT name="LIBRAR">DRAGNDROP</DAT>
 <DAT name="UTRANSACT">0</DAT>
 <DAT name="INIT" xml:space='preserve'>; This component is created as part of the samples on the www.uniface.info. 
 ; In particular it is part of the article http://unifaceinfo.com/drop-it-like-its-hot/
@@ -227,7 +228,7 @@ exit (0)
 
 
 
-           &uFRM;TYP=L&uSEP;NAM=LABEL_1.DE&uSEP;WID=54&uSEP;HEI=1&uSEP;LAB=You dropped:&uFRM;
+           &uFRM;TYP=L&uSEP;NAM=LABEL_1.DE&uSEP;WID=54&uSEP;HEI=1&uSEP;LAB=$text(L_DROPPED):&uFRM;
       &uFRM;TYP=E&uSEP;NAM=FILES.DM&uSEP;WID=69&uSEP;HEI=16&uSEP;HOC=69&uSEP;VOC=1&uSEP;BAR=Y&uFRM;  &uFRM;TYP=F&uSEP;NAM=NM&uSEP;WID=65&uSEP;HEI=1&uFRM;
 
 
@@ -687,7 +688,7 @@ end ; trigger createShortcutTo
 <DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
 </OCC>
 <OCC>
-<DAT name="UTIMESTAMP">2015-12-23T08:52:22.00</DAT>
+<DAT name="UTIMESTAMP">2021-03-22T09:07:39.00</DAT>
 <DAT name="ULABEL">FTIMAGE</DAT>
 <DAT name="GRP">DE</DAT>
 <DAT name="UBASE">DM</DAT>
@@ -724,7 +725,8 @@ sort "FILES", "NM"
 ; reset the background image
 &lt;$fieldname&gt;.&lt;$entname&gt; = "image"</DAT>
 <DAT name="WIDGETCREATE">TARGET=T</DAT>
-<DAT name="VALLAB" xml:space='preserve'>file=&uSEP;image=@droptarget.png</DAT>
+<DAT name="VALLAB" xml:space='preserve'>file=&uSEP;image=^DRAGDROP</DAT>
+<DAT name="INITVALUE">image</DAT>
 <DAT name="UISOBJID">F</DAT>
 <DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
 <DAT name="WEBWIDGETTYPE">EDITBOX</DAT>

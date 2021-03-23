@@ -4,7 +4,7 @@ This folder contains a collection of helpfull components.
 ## Components in this folder do what exactly?
 | Component | Description |
 |-----------|-------------|
-| DARGNDROP | A simple DRAG & DROP example in a Uniface component |
+| DARGNDROP | A simple DRAG & DROP example in a Uniface component, this component requires the dragndrop.xml in the library folder |
 | CSV2JSON | A Uniface component that turns a CSV file into a JSON structure. With a few simple struct statement |
 
 ## Installation 
